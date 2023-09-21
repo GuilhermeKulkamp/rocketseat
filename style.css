@@ -1,6 +1,34 @@
 body {
+  font-family: "Inter", sans-serif;
+  color: white;
+  /* formatação padrão ****
   background-image: url("./assets/bg-mobile.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+  */
+
+  /* formatação curta ****
+    backgroound: color image repeat position/size */
+  background: url("./assets/bg-mobile.jpg") no-repeat top center/cover;
+}
+
+#container {
+  border: 1px solid white;
+  width: 360px;
+  height: 712px;
+  margin: auto;
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
 }
